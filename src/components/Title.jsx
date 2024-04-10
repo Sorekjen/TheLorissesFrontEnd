@@ -1,12 +1,18 @@
 import * as React from 'react';
-import { green } from '@mui/material/colors';
-import Avatar from '@mui/material/Avatar';
-import RecyclingIcon from '@mui/icons-material/Recycling';
+import logo from '../assets/wwblogo.png';
+import Box from '@mui/material/Box';
 
 export default function Title() {
-    return (
-        <Avatar sx={{ bgcolor: green[500], margin: 'auto', width: 100, height: 100, padding: 4 }}>
-            <RecyclingIcon />
-        </Avatar>
-    );
+	return (
+		//Center the image in a div and give it a margin
+		<Box
+			component='img'
+			sx={{
+				height: 200,
+				width: 200,
+			}}
+			alt='The house from the offer.'
+			src={logo}
+		/>
+	);
 }
