@@ -13,7 +13,7 @@ export default function Navigation() {
     let navigate = useNavigate(); 
 
     const routeChange = (route) =>{
-      let path = '/' + route; 
+      let path = '/TheLorissesFrontEnd/' + route; 
       navigate(path);
     }
 
