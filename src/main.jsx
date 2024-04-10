@@ -8,15 +8,15 @@ import Log from './routes/Log'
 
 const router = createBrowserRouter([
   {
-    path: "/TheLorissesFrontEnd/",
+    path: "/TheLorissesFrontEnd",
     element: <App />,
     children: [
       {
-        path: "/log",
+        path: "/TheLorissesFrontEnd/log",
         element: <Log />,
       },
       {
-        path: "/tracker",
+        path: "/TheLorissesFrontEnd/tracker",
         element: <Tracker />,
       },
     ],
