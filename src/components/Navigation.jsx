@@ -5,6 +5,7 @@ import AddCircleIcon from '@mui/icons-material/AddCircle';
 import BarChartIcon from '@mui/icons-material/BarChart';
 import Paper from '@mui/material/Paper';
 import { useNavigate } from "react-router-dom";
+import CameraAltIcon from '@mui/icons-material/CameraAlt';
 
 
 export default function Navigation() {
@@ -39,6 +40,11 @@ export default function Navigation() {
 				label='Tracker'
 				value='tracker'
 				icon={<BarChartIcon />}
+			/>
+			<BottomNavigationAction
+				label='Scan'
+				value='scan'
+				icon={<CameraAltIcon />}
 			/>
 		</BottomNavigation>
         </Paper>

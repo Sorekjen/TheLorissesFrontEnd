@@ -5,6 +5,7 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Tracker from './routes/Tracker'
 import Log from './routes/Log'
+import Scan from './routes/Scan.jsx';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
         path: "/TheLorissesFrontEnd/tracker",
         element: <Tracker />,
       },
+      {
+        path: "/TheLorissesFrontEnd/scan",
+        element: <Scan />,
+      }
     ],
   },
 ]);
