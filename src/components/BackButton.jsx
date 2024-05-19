@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 const BackButton = ({onClick}) => {
 
     return (
-        <Button variant="contained" onClick={onClick}>
+        <Button color={green[300]} variant="contained" onClick={onClick}>
             Back
         </Button>
     );

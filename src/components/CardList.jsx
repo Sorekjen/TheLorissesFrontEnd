@@ -9,7 +9,7 @@ const CardList = () => {
     let recyclingTypes = useContext(RecyclingContext).recyclingTypes;
 
     return (
-        <Stack spacing={2} sx={{ width: '80vw' }}>
+        <Stack spacing={2} sx={{ width: '350px' }}>
             {recyclingTypes.map((entry, index) => (
                 <TrackingCard
                     key={index}

@@ -8,7 +8,7 @@ import { green } from '@mui/material/colors';
 
 export default function TrackingCard({text, number}) {
   return (
-    <Card sx={{ maxWidth: 345, bgcolor: green[300] }}>
+    <Card sx={{ maxWidth: 350, bgcolor: green[300] }}>
       <CardActionArea>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">

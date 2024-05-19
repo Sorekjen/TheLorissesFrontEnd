@@ -15,7 +15,7 @@ const ButtonList = () => {
 	return (
 		<Stack
 			spacing={2}
-			sx={{ width: '80vw' }}>
+			sx={{ width: '350px' }}>
 			{recyclingTypes.map((entry, index) => (
 				<CategoryButton
 					key={index}

@@ -28,7 +28,7 @@ export default function Navigation() {
 	return (
         <Paper sx={{ position: 'fixed', bottom: 0, left: 0, right: 0 }} elevation={3}>
 		<BottomNavigation
-			sx={{ width: '100vw' }}
+			sx={{ width: '412px' }}
 			value={value}
 			onChange={handleChange}>
 			<BottomNavigationAction
