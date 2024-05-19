@@ -6,7 +6,7 @@ const Picture = ({ isVisible, src }) => {
         <div>
             {isVisible && (
                 <Card>
-                    <CardMedia component="img" src={src} alt="A picture" style={{ width: 400, height: 200 }} />
+                    <CardMedia component="img" src={src} alt="A picture" style={{ width: 400, height: 300 }} />
                 </Card>
             )}
         </div>

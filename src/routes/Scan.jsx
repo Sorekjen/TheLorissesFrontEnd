@@ -53,7 +53,7 @@ const Scan = () => {
     };
 
     return (
-        <div style={{ display: 'flex', flexDirection: 'column', height: '60vh', justifyContent: 'space-between' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', height: '400px', justifyContent: 'space-between' }}>
             {randomImage && (
                 <Picture src={randomImage.src} isVisible={showImage} />
             )}

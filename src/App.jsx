@@ -35,13 +35,13 @@ function App() {
 
 
   return (
-    <>
+    <div style={{ width: '400px', height: '900px', marginLeft: 0 }}>
       <Title/>
       <RecyclingContext.Provider value={recyclingTypes}>
         <Outlet/>
       </RecyclingContext.Provider>
       <Navigation/>
-    </>
+    </div>
   )
 }
 

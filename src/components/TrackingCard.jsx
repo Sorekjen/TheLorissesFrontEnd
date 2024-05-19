@@ -8,14 +8,14 @@ import { green } from '@mui/material/colors';
 
 export default function TrackingCard({text, number}) {
   return (
-    <Card sx={{ maxWidth: 350, bgcolor: green[300] }}>
+    <Card sx={{ maxWidth: 345, bgcolor: green[300] }}>
       <CardActionArea>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
             {text}
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            You saved {number} items
+            {number} kg
           </Typography>
         </CardContent>
       </CardActionArea>
